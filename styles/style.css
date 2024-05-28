@@ -1,0 +1,74 @@
+*{
+ margin: 0%;
+ padding: 0%;
+ font-family: Arial, Helvetica, sans-serif;   
+}
+
+    /* INICIO PRIMER APARTADO NEW WAY */
+
+
+header{
+    color: white;
+    background-image: url(../assets/images/banner-bk.jpg);  
+    background-size: cover;
+    background-position: center;
+    height: 638px;
+}
+
+/* contendeor logo pricipal  */
+.logo-principal{ 
+    width: 66px   
+}
+
+/* div principal  */
+.div-principal{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 128px;
+
+}
+
+/* link div principa */
+a{
+    color: white;
+    text-decoration: none;
+}
+
+/* div secundario */
+.div-secundario{
+      width: 50vw;
+      margin-left: 128px;
+      height: 532px;
+}
+
+/* titulo div secundario */
+.titulo-principal{
+    font-size: 80px;
+    margin-bottom: 50px;
+    margin-top: 20px;
+
+}
+
+/* parrafo div secundario */
+.parrafo-principal{
+
+    margin-bottom: 50px;
+}
+
+/* botton div secundario */
+.boton-get-staret{
+    background-color: #00FFAD;
+    color: #192440;
+    border-radius: 100px;
+    padding: 10px 15px;
+    border: none;
+    font-weight: bolder;
+}
+
+/* div-botton */
+.div-botton{
+    margin-top: 80px;
+}
+
+
