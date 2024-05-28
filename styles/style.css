@@ -71,4 +71,117 @@ a{
     margin-top: 80px;
 }
 
+    /* FINALICACION DE PRIMER APARTADO */
+
+    /* INICIALICACION DE SEGUNDO APARTADO */
+
+/* degradado primera parte */
+.degradado-primera-parte{
+    display: flex;
+    padding: 0 128px;
+    flex-direction: row;
+    margin: 0, auto;
+    margin-bottom: 50px;
+}
+
+/* titulo de degradado primera parte */
+.titulo-contenedor-dos{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-size: 30px;
+    color: #302B2C; 
+}
+
+/* classe imagenes y h2 y textos */
+.imagen-uno {
+    text-align: center;
+    color: #302B2C;
+    padding: 0 40px;
+    
+}
+/* clase de los h2 dos de la parte de degradado parte uno */
+.degradado-parte-uno-h2{
+    color: #302B2C;
+    margin-bottom: 10px;
+}
+
+/* contenido de la parte izquierda del degrada dos  */
+.contenido-uno-degradado-dos{
+    width: 50%;
+    margin-top: 70px;
+    margin-left: 150px;
+    color: #302B2C
+    
+
+
+}
+
+/* contenedor padre de la sesion degradado parte dos  */
+.degradado-segunda-parte{
+    display: flex;
+    flex-direction: row;
+    margin-top: 100px;   
+}
+/* boton de la parte izquiera del degradado dos */
+.botton-degradado-segunda-parte{
+    background-color:#192440;
+    color: #FFF1F3;
+    border-radius: 100px;
+    padding: 10px 15px;
+    border: none;
+    font-weight: bolder;
+    margin-top: 50px;
+}
+
+/* titulod se la sesion del degradado de la segunda parte */
+.h2-degradado-segundaparte{
+    margin-bottom: 25px;
+}
+
+/* imagen del degradad dos de la sesion */
+.imagen-degradado-dos img{
+    width: 500px;
+
+}
+
+    /* degradado tercera parte del sesion */
+
+/* degradado padre del degradado tres */
+.degradado-tercera-parte{
+    display: flex;
+    margin-top: 100px;
+
+}
+
+/* imagen de la tercera parte del degradado tres */
+.imagen-degradado-tres{
+    margin-left: 100px;
+}
+
+/* contenido padre del degradado uno tres */
+.contenido-uno-degradado-tres{
+    width: 50%;
+    margin-top: 10px;
+    margin-left: 60px;
+    color: #302B2C  
+}
+/* titulo del contenido degradado tres del sesion */
+.h2-degradado-parte-tres{
+    margin-bottom: 25px;
+}
+/* imagen del degradado tres de la sesion tres */
+.imagen-degradado-tres img{
+    width: 500px;
+}
+
+    /* FINALIZACION DE EL DEGRADADO TRES DE LA SESION */
+
+section{
+    background: linear-gradient(-190deg, #ffffff 60%, #00FFAD 50%); /* Cambia los colores según tu preferencia */
+    margin: 0; /* Quita el margen por defecto */
+}
+
 
