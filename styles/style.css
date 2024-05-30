@@ -179,9 +179,278 @@ a{
 
     /* FINALIZACION DE EL DEGRADADO TRES DE LA SESION */
 
+/* division de el sesion para la ediccion del fondo     */
 section{
     background: linear-gradient(-190deg, #ffffff 60%, #00FFAD 50%); /* Cambia los colores según tu preferencia */
     margin: 0; /* Quita el margen por defecto */
+}
+
+
+    /* INICIALIZACION DEL CONTENEDOR PARTE CUATRO  */
+
+
+            /* clase padre del contendero numero 4     */
+.contenedor-parte-cuatro{
+    margin-top: 70px;
+    text-align: center;
+}
+
+                /* contenedor de las tres clase premium */
+.TresClasesPremium{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 100px;
+    
+}
+
+/* titulo h3 de el contenedor 4  */
+.h3-contenedor-cuatro{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 80px;
+    font-size: 30px;
+}
+/* contenido de la parte izquierda de el contenedor  */
+.contenido-izquierda{
+    padding: 50px 125px;
+
+}
+
+/* ttulo del  contenido de la parte izquierda de el contenedor  */
+.contenido-izquierda h3{
+    margin-bottom: 40px;    
+  }
+
+/* parrafos que van en la parte de arriba en la parte del contenido */
+.parrafos-iniciales{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+/* clase de numeor 0 para ponerlo grande */
+.parrafo-central{
+    font-size: 50px;
+    margin-bottom: 20px;
+    
+}
+
+
+/* parrafos de la parte de abajo antes del botton */
+.parrafos-parte-final p{
+    margin-top: 20px;
+}
+
+/* botton del del contenedor 4 */
+.botton-contenedor-tres{
+    background-color: #fbfffe;
+    color: #192440;
+    border-radius: 100px;
+    margin-top: 70px;
+    padding: 10px 15px;
+    border: 2px solid #192440;
+    font-weight: bolder
+    
+    
+}
+
+
+/* color fondo de contenidoo central  */
+.contenido-central{
+    background-color: #192440;
+    padding: 120px; 
+}
+
+/* contenido del div central */
+.contenido-central h3{
+    margin-bottom: 40px;
+       
+  }
+/* botton del div central */
+  .botton-contenedor-tres-medio{
+    background-color: #00FFAD;   
+    border-radius: 100px;
+    margin-top: 70px;
+    padding: 10px 15px;
+    border: none;
+    font-weight: bolder
+}
+
+
+
+/* contenido de la parte central  */
+.contenido-central{
+    padding: 50px 125px;
+
+}
+
+/* ttulo del  contenido de la parte central */
+.contenido-central h3{
+    margin-bottom: 40px;
+    color:white;    
+    
+  }
+
+/* parrafos que van en la parte de arriba en la parte del contenido central */
+.parrafos-central-iniciales{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    color: white;
+}
+
+/* clase de numeor 0 para ponerlo grande contenido central*/
+.parrafo-central-medio{
+    font-size: 50px;
+    margin-bottom: 20px;
+    color: white;
+    
+}
+
+
+/* parrafos de la parte de abajo antes del botton central */
+.parrafos-central-parte-final p{
+    color:white;
+    margin-top: 20px;
+}
+
+
+.contenedor-marcas{
+    background-color: #ECEEEF;
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+}
+.contenedor-marcas img{
+    margin:0 50px;
+    
+}
+
+
+        /* FINALIZACION DE SESION DE PREMIUMS */
+
+
+        /* INICIALIZACION DE ULTIMO CONTENEDOR  */
+.ultimo-contenedor{            
+    color: white;
+    background-image: url(../assets/images/contact-bk.jpg);  
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: space-evenly;
+    height: 704px;
+}
+
+/* texto que va en el ultimo contenedor de contactos */
+.texto-ultimo-contenedor {
+    width: 40%;
+    text-align: left;
+    padding:  50px 0 0 128px;
+    
+    
+
+}
+/* titulo del ultimo contenedor */
+.texto-ultimo-contenedor h4{
+    padding-top: 100px;
+    padding-bottom: 30px;
+    font-size: 40px;
+    padding-left: 10px;
+    
+}
+/* texto del ultimo contenedor  */
+.texto-ultimo-contenedor p{
+    margin-top: 30px;
+    
+}
+
+/* contenedor uno de contactos  */
+.Contactos{   
+    padding: 80px 80px 0 0;
+    width: 400px;
+    
+}
+
+/* contenedor de la parte de arriba del contenedor */
+.contenedor-parte-superior{
+    display: flex;
+    margin-top: 19%;
+    justify-content: space-between;
+        
+}
+label {
+    color: #00ffcc;
+    display: flex;
+    margin-top: px;
+    margin-bottom: 5px;
+    
+    
+}
+input{
+    margin-bottom: 15px;
+    background: transparent;
+    color: #ffffff; /* Text color */
+    border-color: #00FFAD;
+}
+
+/* contenedor de la parte de abajo del contenedor */
+.contenedor-parte-inferior{
+    margin-bottom: 30px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+/* botton de Contactos */
+.button-contactos button{
+   display: flex;
+   justify-content: center;
+    padding: 10px;
+    border-color: #00ffcc;
+    border-radius: 25px;
+    background-color: #00ffcc;
+    width: 410px;
+}
+
+textarea{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    border-color: #00ffcc;
+    color: white;
+    background-color: transparent;
+    
+}
+
+
+    /* INICIALICACION DE CONTENEDOR FINAL DE REDES Y CPYRIGHT */
+
+    /* contenedor de las redes y el copy ray */
+.contenedor-final-inferior{
+    display: flex;
+    justify-content: space-between;
+    background-color: #192440;
+    color: white;
+    padding: 40px;
+}
+/* PARRAFO DEL CONTENEDOR */
+.contenedor-final-inferior p{
+    margin-left: 60px; 
+    margin-top: 15px;
+}
+
+/* IUMAGENES DE CONTENEDOR */
+.contenedor-final-inferior img{
+    border-radius: 100%; 
+    width: 50px; 
+    height: 50px; 
+    margin-right: 20px;
+}
+
+
+/* clase de las imagenes con un margen */
+.imagenes-finales{
+    margin-right: 50px;
 }
 
 
