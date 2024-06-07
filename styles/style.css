@@ -453,6 +453,125 @@ textarea{
     margin-right: 50px;
 }
 
+@media only screen and (max-width: 1279px) {
+    
+ 
+}
+
+
+
+
+@media only screen and (max-width: 920px) {
+    
+    .contenido-izquierda {
+        padding: 50px 80px;
+    }
+    .contenido-uno-degradado-dos {
+        width: 50%;
+        margin-top: 70px;
+        margin-left: 100px;
+        color: #302B2C;
+    }
+    .imagen-degradado-dos img {
+        width: 500px;
+        padding-right: 50px;
+    }   
+    .imagen-degradado-tres {
+        margin-left: 9px;
+    }
+    .contenido-uno-degradado-tres {
+        width: 50%;
+        margin-top: 10px;
+        margin-left: 20px;
+        margin-top: 20px;
+        margin-right: 50px;
+    }
+    .degradado-primera-parte {
+        display: flex;
+        padding: 0 50px;
+        flex-direction: row;
+        margin: 0, auto;
+        margin-bottom: -32px;
+    }
+    .div-botton {
+        margin-top: 20px;
+    }
+    .texto-ultimo-contenedor {
+        width: 40%;
+        text-align: left;
+        padding: 50px 0 0 128px;
+        margin-right: 80px;
+    }
+
+}
+
+
+@media only screen and (max-width: 768px) {
+
+    .contenido-izquierda {
+        padding: 50px 50px;
+    }
+    .Contactos {
+        padding: 79px 38px 0 0px;
+        width: 376px;
+    }
+    .texto-ultimo-contenedor {
+        width: 40%;
+        text-align: left;
+        padding: 50px 0 0 40px;
+        margin-right: 80px;
+    }
+    .degradado-primera-parte {
+        display: flex;
+        padding: 0 2px;
+        flex-direction: row;
+        margin: 0, auto;
+        margin-bottom: -32px;
+    }
+    .imagen-uno {
+        text-align: center;
+        color: #302B2C;
+        padding: 0 0px;
+    }
+    .TresClasesPremium {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 100px;
+        flex-direction: column;
+    }
+    header {
+        color: white;
+        background-image: url(../assets/images/banner-bk.jpg);
+        background-size: cover;
+        background-position: center;
+        height: 736px;
+    }
+    .botton-degradado-segunda-parte {
+        background-color: #192440;
+        color: #FFF1F3;
+        border-radius: 100px;
+        padding: 10px 15px;
+        border: none;
+        font-weight: bolder;
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+    .imagen-degradado-dos img {
+        width: 425px;
+        padding-right: 29px;
+    }
+    .imagen-degradado-tres img {
+        width: 425px;
+    }
+    
+
+
+}
+
+@media only scree and(max-width:480px){
+
+}
+
 
 
 
